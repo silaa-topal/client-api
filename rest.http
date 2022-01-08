@@ -1,0 +1,26 @@
+###user sign up endpoint
+POST http://localhost:3001/v1/user
+Content-Type: application/json
+
+{
+    "name": "Sıla Topal",
+    "IDnumber": "09876543210",
+    "email": "14@t.com",
+    "password": "secret123",
+    "phone": "012345679",
+    "gender": "female",
+    "age": "19"
+
+}
+
+###user sign in endpoint
+POST http://localhost:3001/v1/user/login
+Content-Type: application/json
+
+{
+  
+    "email": "14@t.com",
+    "password": "secret123"
+   
+
+}
